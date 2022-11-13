@@ -1,0 +1,30 @@
+{
+    "name": "demo-flutter",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "hardhat-chain": "yarn workspace @demo-flutter/hardhat chain",
+        "hardhat-test": "yarn workspace @demo-flutter/hardhat test",
+        "hardhat-deploy": "yarn workspace @demo-flutter/hardhat run deploy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
